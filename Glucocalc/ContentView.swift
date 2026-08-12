@@ -203,11 +203,11 @@ struct ContentView: View {
             return
         }
         if input.contains(".") {
-            // Qt validator: max 2 decimal places
+            // max 2 decimal places
             let fraction = input.split(separator: ".").last?.count ?? 0
             guard fraction < 2 else { return }
         } else {
-            // Qt validator: max 999.99
+            // max 999.99
             guard input.count < 3 else { return }
         }
         input += d
