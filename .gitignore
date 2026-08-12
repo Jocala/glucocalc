@@ -1,0 +1,10 @@
+.build/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+.tmp/
+*.o
+*.dylib
+*.app
+build/
+.DS_Store

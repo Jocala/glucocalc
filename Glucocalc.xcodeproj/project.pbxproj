@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DE6128F2981828A1799771 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DC8AE4ECDCED3C8BE596281 /* Info.plist */; };
+		1CB718030BBE5316707E6998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1DEF85491165F205EC088F /* ContentView.swift */; };
+		469441C8B5AB05F7A7D866B7 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217EB301071574A6406A7C41 /* Calculator.swift */; };
+		61181A69347A2FC0CA46C731 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B7388747471338809C3020 /* HelpView.swift */; };
+		6606A5D8AF792CB7C1879036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FECEF5D15EB20498B4DA3D /* Assets.xcassets */; };
+		A00F956D1E5D564A406F08E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1DEF85491165F205EC088F /* ContentView.swift */; };
+		A8AC52349C5DF6FD4F3052F5 /* GlucocalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEDB86CF4BC89355D227C7 /* GlucocalcApp.swift */; };
+		B1B845DD626EBF1B4C9C9742 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B7388747471338809C3020 /* HelpView.swift */; };
+		B87D8CA86048C771F9F26643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FECEF5D15EB20498B4DA3D /* Assets.xcassets */; };
+		D6C36F10FA18B2CBA9CC2340 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217EB301071574A6406A7C41 /* Calculator.swift */; };
+		D83810A4A15D5EB452CBFF0B /* GlucocalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEDB86CF4BC89355D227C7 /* GlucocalcApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		217EB301071574A6406A7C41 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		2AEEDB86CF4BC89355D227C7 /* GlucocalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucocalcApp.swift; sourceTree = "<group>"; };
+		325928AA26CFBF1AE1890467 /* GlucocalcMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucocalcMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC8AE4ECDCED3C8BE596281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89FECEF5D15EB20498B4DA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		915407F658C1248C42D5B9CB /* Glucocalc.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Glucocalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1DEF85491165F205EC088F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4B7388747471338809C3020 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6B8FBB5B18DF27CBFCA49D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915407F658C1248C42D5B9CB /* Glucocalc.app */,
+				325928AA26CFBF1AE1890467 /* GlucocalcMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E65483B66D77065759D5F25 = {
+			isa = PBXGroup;
+			children = (
+				9778D30946F738BE4147AC4D /* Glucocalc */,
+				6B8FBB5B18DF27CBFCA49D7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9778D30946F738BE4147AC4D /* Glucocalc */ = {
+			isa = PBXGroup;
+			children = (
+				89FECEF5D15EB20498B4DA3D /* Assets.xcassets */,
+				217EB301071574A6406A7C41 /* Calculator.swift */,
+				9F1DEF85491165F205EC088F /* ContentView.swift */,
+				2AEEDB86CF4BC89355D227C7 /* GlucocalcApp.swift */,
+				C4B7388747471338809C3020 /* HelpView.swift */,
+				5DC8AE4ECDCED3C8BE596281 /* Info.plist */,
+			);
+			path = Glucocalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5828A76DCB89F5337772D7A1 /* Glucocalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FADD4A194BDEF804E5355AB /* Build configuration list for PBXNativeTarget "Glucocalc" */;
+			buildPhases = (
+				DE04371A5E82D1C68C160878 /* Sources */,
+				6E9F237AD4BA89E03F3E404A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glucocalc;
+			packageProductDependencies = (
+			);
+			productName = Glucocalc;
+			productReference = 915407F658C1248C42D5B9CB /* Glucocalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		831F002D7B82B75EEAC3B574 /* GlucocalcMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3308BD23F272D6599E5FCEAC /* Build configuration list for PBXNativeTarget "GlucocalcMac" */;
+			buildPhases = (
+				E33DB3DAE40568EA1E749969 /* Sources */,
+				CB5698666353898C5AA7AF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucocalcMac;
+			packageProductDependencies = (
+			);
+			productName = GlucocalcMac;
+			productReference = 325928AA26CFBF1AE1890467 /* GlucocalcMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A542F7B617C1D496F97851A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1700;
+				TargetAttributes = {
+					5828A76DCB89F5337772D7A1 = {
+						DevelopmentTeam = 9Q77WK7W3R;
+						ProvisioningStyle = Automatic;
+					};
+					831F002D7B82B75EEAC3B574 = {
+						DevelopmentTeam = 9Q77WK7W3R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 230814FA7EDCF35B7C639F07 /* Build configuration list for PBXProject "Glucocalc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6E65483B66D77065759D5F25;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B8FBB5B18DF27CBFCA49D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5828A76DCB89F5337772D7A1 /* Glucocalc */,
+				831F002D7B82B75EEAC3B574 /* GlucocalcMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9F237AD4BA89E03F3E404A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87D8CA86048C771F9F26643 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5698666353898C5AA7AF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6606A5D8AF792CB7C1879036 /* Assets.xcassets in Resources */,
+				19DE6128F2981828A1799771 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE04371A5E82D1C68C160878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469441C8B5AB05F7A7D866B7 /* Calculator.swift in Sources */,
+				A00F956D1E5D564A406F08E1 /* ContentView.swift in Sources */,
+				D83810A4A15D5EB452CBFF0B /* GlucocalcApp.swift in Sources */,
+				B1B845DD626EBF1B4C9C9742 /* HelpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33DB3DAE40568EA1E749969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C36F10FA18B2CBA9CC2340 /* Calculator.swift in Sources */,
+				1CB718030BBE5316707E6998 /* ContentView.swift in Sources */,
+				A8AC52349C5DF6FD4F3052F5 /* GlucocalcApp.swift in Sources */,
+				61181A69347A2FC0CA46C731 /* HelpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EA48FCF4E407C222435F5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocala.glucocalc;
+				PRODUCT_NAME = Glucocalc;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30768CF637C7523F160967C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Glucocalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Glucocalc;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocala.glucocalc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585621A4ED7240ACEBFCEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9Q77WK7W3R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B028CB8C1F2F6CC10148722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Glucocalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Glucocalc;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocala.glucocalc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24309536141B0D69CD940B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocala.glucocalc;
+				PRODUCT_NAME = Glucocalc;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA5A282BCA2A177B8898E074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9Q77WK7W3R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230814FA7EDCF35B7C639F07 /* Build configuration list for PBXProject "Glucocalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A282BCA2A177B8898E074 /* Debug */,
+				585621A4ED7240ACEBFCEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3308BD23F272D6599E5FCEAC /* Build configuration list for PBXNativeTarget "GlucocalcMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24309536141B0D69CD940B0 /* Debug */,
+				1EA48FCF4E407C222435F5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9FADD4A194BDEF804E5355AB /* Build configuration list for PBXNativeTarget "Glucocalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B028CB8C1F2F6CC10148722 /* Debug */,
+				30768CF637C7523F160967C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A542F7B617C1D496F97851A /* Project object */;
+}
