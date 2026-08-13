@@ -18,7 +18,7 @@ targets:
       path: Glucocalc/Info.plist
       properties:
         CFBundleShortVersionString: "2.0"
-        CFBundleVersion: "3"
+        CFBundleVersion: "4"
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
