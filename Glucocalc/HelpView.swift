@@ -8,7 +8,9 @@ struct HelpView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
                     Text("Glucocalc — Glucose/HbA1c Calculator").font(.headline)
-                    Text("Version 1.0")
+                    if let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
+                        Text("Version \(version)")
+                    }
                     Text("(c) 2018-2026 jocala")
                     Link("jocala@jocala.com", destination: URL(string: "mailto:jocala@jocala.com")!)
                     Link("https://www.jocala.com",
