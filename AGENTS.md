@@ -16,7 +16,7 @@ detent sheet. The window opens small (420x620) and is freely resizable on iPad
 (`defaultSize` + `windowResizability` in `GlucocalcApp.swift`). All unit
 conversions are handled by the US/UK toggle (no standalone converter).
 
-**Location:** `/Users/jeff/source/apple/glucocalc`
+**Location:** `/Users/jeff/source/glucocalc/glucocalc-apple`
 **Bundle ID:** `com.jocala.glucocalc`
 **Min Target:** iOS 17.0 | **Xcode:** 26.6 | **UI:** SwiftUI
 
